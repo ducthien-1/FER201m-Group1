@@ -10,9 +10,9 @@ npm install
 | Library | Source |
 | ------ | ------ |
 | Create React App | [link](https://github.com/facebook/create-react-app) |
-| Bootstrap | [link](https://github.com/facebook/create-react-app) |
-| Font Awesome | [link](https://github.com/facebook/create-react-app)|
-| Axious | [link](https://github.com/facebook/create-react-app) |
+| React Bootstrap | [link](https://react-bootstrap.netlify.app/) |
+| Font Awesome | [link](https://fontawesome.com/v5/docs/web/use-with/react)|
+| Axious | [link](https://github.com/axios/axios) |
 
 
 ## Chạy ứng dụng
