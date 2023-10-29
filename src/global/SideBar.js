@@ -5,7 +5,7 @@ import ListGroup from 'react-bootstrap/ListGroup';
 export default function Sidebar(props) {
     const [users, setUsers] = useState([])
     useEffect(() => {
-        fetch('http://localhost:3004/account')
+        fetch('http://localhost:3004/accounts')
             .then(response => response.json())
             .then(data => {
                 setUsers(data)
@@ -17,7 +17,7 @@ export default function Sidebar(props) {
             })
             .catch(err => console.log(err))
     }, [])
-
+        
     return (
         <div className='p-3'>
             <div className='me-3'>

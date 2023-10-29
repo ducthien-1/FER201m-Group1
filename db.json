@@ -1,211 +1,543 @@
 {
-  "product": [
-    {
-      "id": 1,
-      "name": "Yonex Arcsaber 11",
-      "price": "1,999,000 VND",
-      "color": "Red",
-      "weight": "88 grams",
-      "style": "Control",
-      "balance": "Even Balance",
-      "quantity": 25,
-      "description": "The Yonex Arcsaber 11 is a versatile racket suitable for players seeking control and power.",
-      "category": 2,
-      "brand": 1,
-      "srcImage": "https://i.imgur.com/C9oShLA.jpg"
-    },
-    {
-      "id": 2,
-      "name": "Yonex Nanoray 10F",
-      "price": "1,599,000 VND",
-      "color": "Blue",
-      "weight": "78 grams",
-      "style": "All-Around",
-      "balance": "Even Balance",
-      "quantity": 18,
-      "description": "The Yonex Nanoray 10F is a well-rounded racket suitable for all types of players.",
-      "category": 1,
-      "brand": 1,
-      "srcImage": "https://i.imgur.com/dlM5U5W.jpg"
-    },
-    {
-      "id": 3,
-      "name": "Victor Brave Sword 12",
-      "price": "1,699,000 VND",
-      "color": "Red",
-      "weight": "85 grams",
-      "style": "All-Around",
-      "balance": "Even Balance",
-      "quantity": 15,
-      "description": "The Victor Brave Sword 12 is a versatile racket suitable for all types of players.",
-      "category": 2,
-      "brand": 2,
-      "srcImage": "https://i.imgur.com/tkKhzcX.jpg"
-    },
-    {
-      "id": 4,
-      "name": "Yonex Duora 10",
-      "price": "2,299,000 VND",
-      "color": "Black",
-      "weight": "88 grams",
-      "style": "Power",
-      "balance": "Head-Heavy",
-      "quantity": 12,
-      "description": "The Yonex Duora 10 is designed for powerful and aggressive play.",
-      "category": 3,
-      "brand": 1,
-      "srcImage": "https://i.imgur.com/VTFKe9p.jpg"
-    },
-    {
-      "id": 5,
-      "name": "Li-Ning Turbo X80",
-      "price": "1,499,000 VND",
-      "color": "Green",
-      "weight": "85 grams",
-      "style": "All-Around",
-      "balance": "Even Balance",
-      "quantity": 30,
-      "description": "The Li-Ning Turbo X80 is a great all-around racket suitable for players of all levels.",
-      "category": 1,
-      "brand": 4,
-      "srcImage": "https://i.imgur.com/1OhpbDg.jpg"
-    }
-  ],
-  "category": [
-    {
-      "id": 1,
-      "name": "Vợt Cầu Lông Loại Dành Cho Người Mới Bắt Đầu"
-    },
-    {
-      "id": 2,
-      "name": "Vợt Cầu Lông Loại Tiêu Chuẩn Cho Người Chơi Trung Bình"
-    },
-    {
-      "id": 3,
-      "name": "Vợt Cầu Lông Loại Dành Cho Người Chơi Nâng Cao"
-    },
-    {
-      "id": 4,
-      "name": "Vợt Cầu Lông Loại Dành Cho Người Chơi Tấn Công Mạnh"
-    },
-    {
-      "id": 5,
-      "name": "Vợt Cầu Lông Loại Dành Cho Các Chuyên Gia"
-    }
-  ],
-  "brand": [
+  "brands": [
     {
       "id": 1,
       "name": "Yonex"
     },
     {
       "id": 2,
-      "name": "Victor"
-    },
-    {
-      "id": 3,
-      "name": "Wilson"
-    },
-    {
-      "id": 4,
       "name": "Li-Ning"
     },
     {
+      "id": 3,
+      "name": "Victor"
+    },
+    {
+      "id": 4,
+      "name": "Kumpoo"
+    },
+    {
       "id": 5,
-      "name": "Head"
+      "name": "kawasaki"
+    },
+    {
+      "id": 6,
+      "name": "Proace"
     }
   ],
-  "account": [
+  "products": [
+    {
+      "id": 1,
+      "name": "Yonex Nanoray 10",
+      "price": 1759780,
+      "color": "Red",
+      "weight": "85g",
+      "style": "All-Around",
+      "balance": "Even",
+      "quantity": 50,
+      "description": "A versatile badminton racket suitable for all levels of play.",
+      "brand": 1,
+      "category": 1,
+      "skill_lv": "Beginner",
+      "imgage": "https://i.imgur.com/YIy22Tg.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Li-Ning Turbo X10",
+      "price": 1979780,
+      "color": "Blue",
+      "weight": "80g",
+      "style": "Powerful",
+      "balance": "Head-Heavy",
+      "quantity": 30,
+      "description": "Designed for aggressive players who want extra power in their shots.",
+      "brand": 2,
+      "category": 1,
+      "skill_lv": "Intermediate",
+      "image": ""
+    },
+    {
+      "id": 3,
+      "name": "Yonex Arcsaber 11",
+      "price": 2859780,
+      "color": "Red",
+      "weight": "85g",
+      "style": "All-Around",
+      "balance": "Even",
+      "quantity": 30,
+      "description": "A versatile badminton racket suitable for men's singles play.",
+      "brand": 1,
+      "category": 1,
+      "skill_lv": "Advanced",
+      "image": ""
+    },
+    {
+      "id": 4,
+      "name": "Li-Ning Turbo X7",
+      "price": 2639780,
+      "color": "Blue",
+      "weight": "80g",
+      "style": "Powerful",
+      "balance": "Head-Heavy",
+      "quantity": 25,
+      "description": "Designed for women's singles play, offering extra power.",
+      "brand": 2,
+      "category": 2,
+      "skill_lv": "Intermediate",
+      "image": ""
+    },
+    {
+      "id": 5,
+      "name": "Kumpoo Rapid Pro",
+      "price": 3079780,
+      "color": "Black",
+      "weight": "88g",
+      "style": "Powerful",
+      "balance": "Head-Heavy",
+      "quantity": 20,
+      "description": "Ideal for doubles play, providing great power and control.",
+      "brand": 4,
+      "category": 3,
+      "skill_lv": "Advanced",
+      "image": ""
+    },
+    {
+      "id": 6,
+      "name": "Victor Brave Sword 12",
+      "price": 2419780,
+      "color": "Orange",
+      "weight": "78g",
+      "style": "All-Around",
+      "balance": "Even",
+      "quantity": 35,
+      "description": "An excellent choice for men's singles with an emphasis on control.",
+      "brand": 3,
+      "category": 1,
+      "skill_lv": "Intermediate",
+      "image": ""
+    },
+    {
+      "id": 7,
+      "name": "Kawasaki King K7",
+      "price": 2639780,
+      "color": "Green",
+      "weight": "84g",
+      "style": "Powerful",
+      "balance": "Head-Heavy",
+      "quantity": 28,
+      "description": "A powerful racket suitable for women's singles play.",
+      "brand": 5,
+      "category": 2,
+      "skill_lv": "Intermediate",
+      "image": ""
+    },
+    {
+      "id": 8,
+      "name": "Proace X-Duo 2200",
+      "price": 2859780,
+      "color": "Blue",
+      "weight": "86g",
+      "style": "All-Around",
+      "balance": "Even",
+      "quantity": 22,
+      "description": "Perfect for doubles play, offering a balanced performance.",
+      "brand": 6,
+      "category": 3,
+      "skill_lv": "Intermediate",
+      "image": ""
+    },
+    {
+      "id": 9,
+      "name": "Yonex Voltric Z-Force II",
+      "price": 3339780,
+      "color": "Silver",
+      "weight": "88g",
+      "style": "Powerful",
+      "balance": "Head-Heavy",
+      "quantity": 18,
+      "description": "A high-performance racket for aggressive players.",
+      "brand": 1,
+      "category": 1,
+      "skill_lv": "Advanced",
+      "image": ""
+    },
+    {
+      "id": 10,
+      "name": "Li-Ning Windstorm 72",
+      "price": 2399780,
+      "color": "Yellow",
+      "weight": "76g",
+      "style": "All-Around",
+      "balance": "Even",
+      "quantity": 24,
+      "description": "Ideal for players who value speed and control.",
+      "brand": 2,
+      "category": 1,
+      "skill_lv": "Intermediate",
+      "image": ""
+    },
+    {
+      "id": 11,
+      "name": "Victor Hypernano X800",
+      "price": 2949780,
+      "color": "Red",
+      "weight": "85g",
+      "style": "All-Around",
+      "balance": "Even",
+      "quantity": 27,
+      "description": "A balanced racket suitable for both singles and doubles play.",
+      "brand": 3,
+      "category": 1,
+      "skill_lv": "Intermediate",
+      "image": ""
+    },
+    {
+      "id": 12,
+      "name": "Kawasaki Air Blade 9000",
+      "price": 2669780,
+      "color": "Blue",
+      "weight": "84g",
+      "style": "Powerful",
+      "balance": "Head-Heavy",
+      "quantity": 22,
+      "description": "A versatile racket for powerful shots and control.",
+      "brand": 5,
+      "category": 1,
+      "skill_lv": "Intermediate",
+      "image": ""
+    },
+    {
+      "id": 13,
+      "name": "Yonex Duora 10",
+      "price": 3189780,
+      "color": "Black/Red",
+      "weight": "88g",
+      "style": "Versatile",
+      "balance": "Even",
+      "quantity": 19,
+      "description": "A dual-sided racket designed for exceptional versatility on the court.",
+      "brand": 1,
+      "category": 2,
+      "skill_lv": "Advanced",
+      "image": ""
+    },
+    {
+      "id": 14,
+      "name": "Proace Supreme 3000",
+      "price": 2529780,
+      "color": "Green",
+      "weight": "85g",
+      "style": "All-Around",
+      "balance": "Even",
+      "quantity": 26,
+      "description": "A versatile and reliable racket for players of all levels.",
+      "brand": 6,
+      "category": 3,
+      "skill_lv": "Intermediate",
+      "image": ""
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "men-single"
+    },
+    {
+      "id": 2,
+      "name": "women-single"
+    },
+    {
+      "id": 3,
+      "name": "doubles"
+    }
+  ],
+  "accounts": [
     {
       "id": 1,
       "fname": "Gawr",
       "lname": "Gura",
-      "role" : "admin",
-      "cartId": 1,
-      "orderId": 1,
-      "commentId": [1],
-      "messageId": 1,
-      "avatar": "https://i.imgur.com/9SRIArnh.jpg"
+      "role": "customer",
+      "cart": [
+        {
+          "productId": 1,
+          "quantity": 3
+        }
+      ],
+      "orders": [1,2],
+      "avatar": "https://i.imgur.com/9SRIArnh.jpg",
+      "active": "normal"
     },
     {
       "id": 2,
       "fname": "Takanashi",
       "lname": "Kiara",
-      "role" : "admin",
-      "cartId": 2,
-      "orderId": 2,
-      "commentId": [2],
-      "messageId": 2,
-      "avatar": "https://i.imgur.com/9VMqRCxh.jpg"
+      "role": "admin",
+      "cart": [],
+      "orders": [],
+      "avatar": "https://i.imgur.com/9VMqRCxh.jpg",
+      "active": "normal"
     },
     {
       "id": 3,
       "fname": "Shigure",
       "lname": "Ui",
-      "role" : "admin",
-      "cartId": 3,
-      "orderId": 3,
-      "commentId": [3],
-      "messageId": 3,
-      "avatar": "https://i.imgur.com/fnkEnGgh.jpg"
+      "role": "customer-agent",
+      "cart": [1],
+      "orders": [3],
+      "avatar": "https://i.imgur.com/fnkEnGgh.jpg",
+      "active": "normal"
     },
     {
       "id": 4,
       "fname": "Kazama",
       "lname": "Iroha",
-      "role" : "admin",
-      "cartId": 4,
-      "orderId": 4,
-      "commentId": [4],
-      "messageId": 4,
-      "avatar": "https://i.imgur.com/6m0Nyn2h.jpg"
+      "role": "delivery-agent",
+      "cart": [],
+      "orders": [4],
+      "avatar": "https://i.imgur.com/6m0Nyn2h.jpg",
+      "active": "normal"
     },
     {
       "id": 5,
       "fname": "Lan",
       "lname": "Linh",
-      "role" : "admin",
-      "cartId": 5,
-      "orderId": 5,
-      "commentId": [5],
-      "messageId": 5,
-      "avatar": "https://i.imgur.com/dPVk2znh.jpg"
-    }
+      "role": "owner",
+      "cart": [],
+      "orders": [4],
+      "avatar": "https://i.imgur.com/dPVk2znh.jpg",
+      "active": "normal"
+    },
+    {
+        "id": 6,
+        "fname": "Gawr",
+        "lname": "Gura clone 1",
+        "role": "customer",
+        "cart": [
+          {
+            "productId": 1,
+            "quantity": 3
+          }
+        ],
+        "orders": [],
+        "avatar": "https://i.imgur.com/9SRIArnh.jpg",
+        "active": "disabled"
+      },
+      {
+        "id": 7,
+        "fname": "Gawr",
+        "lname": "Gura clone 2",
+        "role": "customer",
+        "cart": [
+          {
+            "productId": 1,
+            "quantity": 3
+          }
+        ],
+        "orders": [],
+        "avatar": "https://i.imgur.com/9SRIArnh.jpg",
+        "active": "no-comment"
+      }
   ],
-  "order": [
+  "messages": [
     {
       "id": 1,
-      "userId": 1,
+      "content": "Hello, when will my order be delivered?",
+      "senderId": 1,
+      "receiverId": 1
+    },
+    {
+      "id": 2,
+      "content": "Your order will be delivered tomorrow.",
+      "senderId": 2,
+      "receiverId": 2
+    },
+    {
+      "id": 3,
+      "content": "Do you have any discounts for bulk orders?",
+      "senderId": 1,
+      "receiverId": 2
+    },
+    {
+      "id": 4,
+      "content": "Yes, we offer discounts for bulk purchases. Please contact our sales team for details.",
+      "senderId": 2,
+      "receiverId": 3
+    }
+  ],
+  "reports": [
+    {
+      "id": 1,
+      "object": "Product",
+      "description": "Reported inappropriate content in product listing.",
+      "images": []
+    },
+    {
+      "id": 2,
+      "object": "Comment",
+      "description": "Flagged a comment for review.",
+      "images": []
+    },
+    {
+      "id": 3,
+      "object": "Product",
+      "description": "Reported incorrect product specifications.",
+      "images": []
+    },
+    {
+      "id": 4,
+      "object": "Comment",
+      "description": "Flagged a comment for spam.",
+      "images": []
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
       "products": [
         {
           "productId": 1,
           "quantity": 1
         }
       ],
-      "totalPrice": 1000000,
-      "status": "Pending",
-      "date": "2020-01-01 00:00:00"
+      "date": "2023-10-29",
+      "deliver": true,
+      "status": "Delivered",
+      "customerId": 3
+    },
+    {
+      "id": 2,
+      "products": [
+        {
+          "productId": 2,
+          "quantity": 1
+        }
+      ],
+      "date": "2023-11-05",
+      "deliver": false,
+      "status": "Processing",
+      "customerId": 2
+    },
+    {
+      "id": 3,
+      "products": [
+        {
+          "productId": 3,
+          "quantity": 1
+        },
+        {
+          "productId": 4,
+          "quantity": 2
+        },
+        {
+          "productId": 10,
+          "quantity": 3
+        }
+      ],
+      "date": "2023-11-02",
+      "deliver": true,
+      "status": "Delivered",
+      "customerId": 1
+    },
+    {
+      "id": 4,
+      "products": [
+        {
+          "productId": 4,
+          "quantity": 1
+        },
+        {
+          "productId": 5,
+          "quantity": 2
+        }
+      ],
+      "date": "2023-11-10",
+      "deliver": false,
+      "status": "Processing",
+      "customerId": 4
     }
   ],
-  "delivery-order": [
-
+  "deliveryOrders": [
+    {
+      "id": 1,
+      "order": 1
+    },
+    {
+      "id": 2,
+      "order": 2
+    }
   ],
-  "report": [
-
+  "comments": [
+    {
+      "id": 1,
+      "content": "Great racket! I love it!",
+      "product": 1,
+      "reply_comments": [],
+      "time": "2023-10-28 15:30",
+      "like": 5,
+      "status": "Appropriate"
+    },
+    {
+      "id": 2,
+      "content": "This product is not worth the price.",
+      "product": 2,
+      "reply_comments": [1],
+      "time": "2023-10-29 10:15",
+      "like": 2,
+      "status": "Non-Appropriate"
+    },
+    {
+      "id": 3,
+      "content": "I had a great shopping experience with this website!",
+      "product": 1,
+      "reply_comments": [1,2],
+      "time": "2023-10-30 08:45",
+      "like": 7,
+      "status": "Appropriate"
+    },
+    {
+      "id": 4,
+      "content": "The customer support team was very helpful.",
+      "product": 2,
+      "reply_comments": [],
+      "time": "2023-10-31 12:20",
+      "like": 3,
+      "status": "Appropriate"
+    }
   ],
-  "message": [
-
+  "productOwners": [
+    {
+      "id": 1,
+      "real_price": 70000
+    },
+    {
+      "id": 2,
+      "real_price": 80000
+    }
   ],
-  "voucher": [
-
+  "events": [
+    {
+      "id": 1,
+      "valid_from": "2023-11-01",
+      "valid_to": "2023-11-30",
+      "vouchers": [1]
+    },
+    {
+      "id": 2,
+      "valid_from": "2023-11-05",
+      "valid_to": "2023-12-05",
+      "vouchers": [2]
+    }
   ],
-  "event": [
-
-  ],
-  "product-owner": [
-
-  ],
-  "comment": [
-
+  "vouchers": [
+    {
+      "id": 1,
+      "value": 10,
+      "valid_customers": [1]
+    },
+    {
+      "id": 2,
+      "value": 15,
+      "valid_customers": [2]
+    }
   ]
 }
