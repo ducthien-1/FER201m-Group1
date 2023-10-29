@@ -1,0 +1,211 @@
+{
+  "product": [
+    {
+      "id": 1,
+      "name": "Yonex Arcsaber 11",
+      "price": "1,999,000 VND",
+      "color": "Red",
+      "weight": "88 grams",
+      "style": "Control",
+      "balance": "Even Balance",
+      "quantity": 25,
+      "description": "The Yonex Arcsaber 11 is a versatile racket suitable for players seeking control and power.",
+      "category": 2,
+      "brand": 1,
+      "srcImage": "https://i.imgur.com/C9oShLA.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Yonex Nanoray 10F",
+      "price": "1,599,000 VND",
+      "color": "Blue",
+      "weight": "78 grams",
+      "style": "All-Around",
+      "balance": "Even Balance",
+      "quantity": 18,
+      "description": "The Yonex Nanoray 10F is a well-rounded racket suitable for all types of players.",
+      "category": 1,
+      "brand": 1,
+      "srcImage": "https://i.imgur.com/dlM5U5W.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Victor Brave Sword 12",
+      "price": "1,699,000 VND",
+      "color": "Red",
+      "weight": "85 grams",
+      "style": "All-Around",
+      "balance": "Even Balance",
+      "quantity": 15,
+      "description": "The Victor Brave Sword 12 is a versatile racket suitable for all types of players.",
+      "category": 2,
+      "brand": 2,
+      "srcImage": "https://i.imgur.com/tkKhzcX.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Yonex Duora 10",
+      "price": "2,299,000 VND",
+      "color": "Black",
+      "weight": "88 grams",
+      "style": "Power",
+      "balance": "Head-Heavy",
+      "quantity": 12,
+      "description": "The Yonex Duora 10 is designed for powerful and aggressive play.",
+      "category": 3,
+      "brand": 1,
+      "srcImage": "https://i.imgur.com/VTFKe9p.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Li-Ning Turbo X80",
+      "price": "1,499,000 VND",
+      "color": "Green",
+      "weight": "85 grams",
+      "style": "All-Around",
+      "balance": "Even Balance",
+      "quantity": 30,
+      "description": "The Li-Ning Turbo X80 is a great all-around racket suitable for players of all levels.",
+      "category": 1,
+      "brand": 4,
+      "srcImage": "https://i.imgur.com/1OhpbDg.jpg"
+    }
+  ],
+  "category": [
+    {
+      "id": 1,
+      "name": "Vợt Cầu Lông Loại Dành Cho Người Mới Bắt Đầu"
+    },
+    {
+      "id": 2,
+      "name": "Vợt Cầu Lông Loại Tiêu Chuẩn Cho Người Chơi Trung Bình"
+    },
+    {
+      "id": 3,
+      "name": "Vợt Cầu Lông Loại Dành Cho Người Chơi Nâng Cao"
+    },
+    {
+      "id": 4,
+      "name": "Vợt Cầu Lông Loại Dành Cho Người Chơi Tấn Công Mạnh"
+    },
+    {
+      "id": 5,
+      "name": "Vợt Cầu Lông Loại Dành Cho Các Chuyên Gia"
+    }
+  ],
+  "brand": [
+    {
+      "id": 1,
+      "name": "Yonex"
+    },
+    {
+      "id": 2,
+      "name": "Victor"
+    },
+    {
+      "id": 3,
+      "name": "Wilson"
+    },
+    {
+      "id": 4,
+      "name": "Li-Ning"
+    },
+    {
+      "id": 5,
+      "name": "Head"
+    }
+  ],
+  "account": [
+    {
+      "id": 1,
+      "fname": "Gawr",
+      "lname": "Gura",
+      "role" : "admin",
+      "cartId": 1,
+      "orderId": 1,
+      "commentId": [1],
+      "messageId": 1,
+      "avatar": "https://i.imgur.com/9SRIArnh.jpg"
+    },
+    {
+      "id": 2,
+      "fname": "Takanashi",
+      "lname": "Kiara",
+      "role" : "admin",
+      "cartId": 2,
+      "orderId": 2,
+      "commentId": [2],
+      "messageId": 2,
+      "avatar": "https://i.imgur.com/9VMqRCxh.jpg"
+    },
+    {
+      "id": 3,
+      "fname": "Shigure",
+      "lname": "Ui",
+      "role" : "admin",
+      "cartId": 3,
+      "orderId": 3,
+      "commentId": [3],
+      "messageId": 3,
+      "avatar": "https://i.imgur.com/fnkEnGgh.jpg"
+    },
+    {
+      "id": 4,
+      "fname": "Kazama",
+      "lname": "Iroha",
+      "role" : "admin",
+      "cartId": 4,
+      "orderId": 4,
+      "commentId": [4],
+      "messageId": 4,
+      "avatar": "https://i.imgur.com/6m0Nyn2h.jpg"
+    },
+    {
+      "id": 5,
+      "fname": "Lan",
+      "lname": "Linh",
+      "role" : "admin",
+      "cartId": 5,
+      "orderId": 5,
+      "commentId": [5],
+      "messageId": 5,
+      "avatar": "https://i.imgur.com/dPVk2znh.jpg"
+    }
+  ],
+  "order": [
+    {
+      "id": 1,
+      "userId": 1,
+      "products": [
+        {
+          "productId": 1,
+          "quantity": 1
+        }
+      ],
+      "totalPrice": 1000000,
+      "status": "Pending",
+      "date": "2020-01-01 00:00:00"
+    }
+  ],
+  "delivery-order": [
+
+  ],
+  "report": [
+
+  ],
+  "message": [
+
+  ],
+  "voucher": [
+
+  ],
+  "event": [
+
+  ],
+  "product-owner": [
+
+  ],
+  "comment": [
+
+  ]
+}

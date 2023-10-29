@@ -83,10 +83,7 @@ const router = createBrowserRouter(
           path: 'cart',
           element: <ShoppingCart />
         },
-        {
-          path: 'checkout',
-          element: <CheckOut />
-        },
+        
         {
           path: 'confirm-checkout',
           element: <ConfirmCheckOut />
@@ -112,6 +109,10 @@ const router = createBrowserRouter(
           element: <OrderDetail />
         },
       ]
+    },
+    {
+      path: 'checkout',
+      element: <CheckOut />
     },
     {
       path: '/login',
@@ -186,11 +187,11 @@ const router = createBrowserRouter(
           element: <ManageComments />
         },
         {
-          path: '/customer-agent/:id/order/',
+          path: '/customer-agent/:id/order',
           element: <ViewOrder />
         },
         {
-          path: '/customer-agent/:id/deliveries/',
+          path: '/customer-agent/:id/deliveries/:id',
           element: <EditDeliveryDetail />
         },
         {
@@ -250,7 +251,8 @@ const router = createBrowserRouter(
           element: <EditEventDetail />
         },
       ],
-    }
+    },
+    
   ],
 )
 

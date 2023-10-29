@@ -1,0 +1,7 @@
+a {
+    text-decoration: none;
+}
+
+.chat-item:hover, .active{
+    background-color: rgba(0,0,0,0.1);
+}
