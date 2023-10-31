@@ -263,7 +263,7 @@
           "quantity": 3
         }
       ],
-      "orders": [1,2],
+      "orders": [1, 2],
       "avatar": "https://i.imgur.com/9SRIArnh.jpg",
       "active": "normal"
     },
@@ -308,35 +308,65 @@
       "active": "normal"
     },
     {
-        "id": 6,
-        "fname": "Gawr",
-        "lname": "Gura clone 1",
-        "role": "customer",
-        "cart": [
-          {
-            "productId": 1,
-            "quantity": 3
-          }
-        ],
-        "orders": [],
-        "avatar": "https://i.imgur.com/9SRIArnh.jpg",
-        "active": "disabled"
-      },
-      {
-        "id": 7,
-        "fname": "Gawr",
-        "lname": "Gura clone 2",
-        "role": "customer",
-        "cart": [
-          {
-            "productId": 1,
-            "quantity": 3
-          }
-        ],
-        "orders": [],
-        "avatar": "https://i.imgur.com/9SRIArnh.jpg",
-        "active": "no-comment"
-      }
+      "id": 6,
+      "fname": "Gawr",
+      "lname": "Gura clone 1",
+      "role": "customer",
+      "cart": [
+        {
+          "productId": 1,
+          "quantity": 3
+        }
+      ],
+      "orders": [],
+      "avatar": "https://i.imgur.com/9SRIArnh.jpg",
+      "active": "disabled"
+    },
+    {
+      "id": 7,
+      "fname": "Gawr",
+      "lname": "Gura clone 2",
+      "role": "customer",
+      "cart": [
+        {
+          "productId": 1,
+          "quantity": 3
+        }
+      ],
+      "orders": [],
+      "avatar": "https://i.imgur.com/9SRIArnh.jpg",
+      "active": "no-comment"
+    },
+    {
+      "id": 8,
+      "fname": "Gawr",
+      "lname": "Gura clone 3",
+      "role": "customer",
+      "cart": [
+        {
+          "productId": 1,
+          "quantity": 3
+        }
+      ],
+      "orders": [],
+      "avatar": "https://i.imgur.com/9SRIArnh.jpg",
+      "active": "no-comment"
+    },
+    {
+      "id": 8,
+      "fname": "Gawr",
+      "lname": "Gura clone 4",
+      "role": "customer",
+      "cart": [
+        {
+          "productId": 1,
+          "quantity": 3
+        }
+      ],
+      "orders": [],
+      "avatar": "https://i.imgur.com/9SRIArnh.jpg",
+      "active": "no-comment"
+    }
   ],
   "messages": [
     {
@@ -489,7 +519,7 @@
       "id": 3,
       "content": "I had a great shopping experience with this website!",
       "product": 1,
-      "reply_comments": [1,2],
+      "reply_comments": [1, 2],
       "time": "2023-10-30 08:45",
       "like": 7,
       "status": "Appropriate"
