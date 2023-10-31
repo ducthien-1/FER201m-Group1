@@ -1,8 +1,24 @@
 
-export default function Header(){
+
+import Header_Guest from "./../components/Header_Guest"
+import axios from 'axios';
+import { useState, useEffect } from 'react'
+
+
+export default function Header() {
+    const [account, setAccount] = useState({});
+
+    useEffect(() => {
+        axios.get('http://localhost:9999/accounts')
+            .then(function (response) {
+                setAccount(response.data)
+                // handle success
+            })
+    }, [])
+
     return (
-        <div>
-            <h1>Header</h1>
-        </div>
+        <>
+            <Header_Guest />
+        </>
     )
 }

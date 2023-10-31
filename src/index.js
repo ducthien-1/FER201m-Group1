@@ -4,6 +4,9 @@ import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import ErrorPage from './routers/common/ErrorPage';
 import reportWebVitals from './reportWebVitals';
 import './css/index.css';
+import 'mdb-react-ui-kit/dist/css/mdb.min.css';
+import "@fortawesome/fontawesome-free/css/all.min.css";
+
 // Common
 import Customer from './layout/Customer';
 import Home from './routers/common/Home';
@@ -83,7 +86,7 @@ const router = createBrowserRouter(
           path: 'cart',
           element: <ShoppingCart />
         },
-        
+
         {
           path: 'confirm-checkout',
           element: <ConfirmCheckOut />
@@ -252,7 +255,7 @@ const router = createBrowserRouter(
         },
       ],
     },
-    
+
   ],
 )
 
