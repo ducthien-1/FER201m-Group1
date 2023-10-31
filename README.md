@@ -47,7 +47,7 @@ Mở trình duyệt và ở [http://localhost:3000](http://localhost:3000) bạn
 | Socket io | [link](https://socket.io/docs/v4/tutorial/introduction) |
 
 ## Tài liệu
-| Library | Source |
+| Content | Source |
 | ------ | ------ |
 | React | [link](https://react.dev/) |
 | HTML,CSS,JS | [link](https://developer.mozilla.org/en-US/) |
