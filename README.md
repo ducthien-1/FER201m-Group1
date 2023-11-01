@@ -45,6 +45,8 @@ Mở trình duyệt và ở [http://localhost:3000](http://localhost:3000) bạn
 | Axious | [link](https://github.com/axios/axios) |
 | Express | [link](https://expressjs.com/) |
 | Socket io | [link](https://socket.io/docs/v4/tutorial/introduction) |
+| MDBootstrap | [link](https://mdbootstrap.com/docs/react/) |
+| React Icons | [link](https://github.com/react-icons/react-icons#readme) |
 
 ## Tài liệu
 | Content | Source |

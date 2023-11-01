@@ -353,7 +353,7 @@
       "active": "no-comment"
     },
     {
-      "id": 8,
+      "id": 9,
       "fname": "Gawr",
       "lname": "Gura clone 4",
       "role": "customer",
@@ -431,8 +431,7 @@
       ],
       "date": "2023-10-29",
       "deliver": true,
-      "status": "Delivered",
-      "customerId": 3
+      "status": "Delivered"
     },
     {
       "id": 2,
@@ -444,8 +443,7 @@
       ],
       "date": "2023-11-05",
       "deliver": false,
-      "status": "Processing",
-      "customerId": 2
+      "status": "Processing"
     },
     {
       "id": 3,
@@ -465,8 +463,7 @@
       ],
       "date": "2023-11-02",
       "deliver": true,
-      "status": "Delivered",
-      "customerId": 1
+      "status": "Delivered"
     },
     {
       "id": 4,
@@ -482,8 +479,7 @@
       ],
       "date": "2023-11-10",
       "deliver": false,
-      "status": "Processing",
-      "customerId": 4
+      "status": "Processing"
     }
   ],
   "deliveryOrders": [
